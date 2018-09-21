@@ -1,9 +1,19 @@
 body {
+    background-image: url("/Users/Parker/src/basic-portfolio/assets/images/gravel/gravel.png");
+}
+
+.content {
     background-color: #ffffff;
     border-color: #dddddd;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    padding: 2%;
 }
 
 footer {
+    color: #dddddd;
     background-color: #666666;
     text-align: center;
 }
@@ -28,5 +38,10 @@ h1 {
 p {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 250%;
 }
 
+#portrait {
+    float: left;
+    margin: 20px;
+}
