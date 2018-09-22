@@ -1,5 +1,6 @@
 body {
     background-image: url("/Users/Parker/src/basic-portfolio/assets/images/gravel/gravel.png");
+    margin: 0px;
 }
 
 .content {
@@ -13,8 +14,17 @@ body {
 }
 
 footer {
+    border-top: 5px;
+    border-left: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: #4aaaa5;
     color: #dddddd;
     background-color: #666666;
+    padding-top: 2%; 
+    position: fixed;
+        bottom: 0;
+        width: 100%;
     text-align: center;
 }
 
