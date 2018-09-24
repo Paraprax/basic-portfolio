@@ -49,19 +49,24 @@ form {
 #name {
     background-color: #4aaaa5;
     border-color: #cccccc;
+    float: left;
     color: #ffffff;
-    z-index: 1;
+    padding: 14px;
 }
 
 nav {
     background-color: #ffffff;
+    border-style: solid;
+        border-color: #cccccc;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 2;
+        border-left: 0;
     display: block;
-    padding-right: 10%;
     position: fixed;
         top: 0;
         right: 0;
     width: 100%;
-    z-index: 0;
 }
 
     nav a {
