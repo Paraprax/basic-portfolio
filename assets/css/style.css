@@ -6,21 +6,25 @@ body {
 .content {
     background-color: #ffffff;
     border-color: #dddddd;
-    margin-top: 2%;
+    margin-top: 6%;
     margin-right: 10%;
     margin-bottom: 10%;
     margin-left: 10%;
-    padding: 2%;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+
 }
 
 footer {
+    background-color: #666666;
     border-top: 5px;
     border-left: 0;
     border-bottom: 0;
     border-style: solid;
     border-color: #4aaaa5;
     color: #dddddd;
-    background-color: #666666;
     padding-top: 2%; 
     position: fixed;
         bottom: 0;
@@ -34,16 +38,45 @@ form {
     line-height: 200%;
 }
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.subject {
+    font-size: h1;
+    font-family: Georgia,'Times New Roman', Times, serif;
     color: #4aaaa5;
+    padding-top: 1%;
+    padding-left: 2%;
 }
 
 #name {
-    color: #ffffff;
     background-color: #4aaaa5;
     border-color: #cccccc;
+    color: #ffffff;
+    z-index: 1;
 }
+
+nav {
+    background-color: #ffffff;
+    display: block;
+    padding-right: 10%;
+    position: fixed;
+        top: 0;
+        right: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+    nav a {
+        float: right;
+        text-align: center;
+        padding: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+    }
+
+    nav a:hover {
+        background-color:#4aaaa5;
+        color: #ffffff;
+    }
+  
 
 p {
     color: #777777;
@@ -54,4 +87,14 @@ p {
 #portrait {
     float: left;
     margin: 20px;
+}
+
+.repoTitle {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
