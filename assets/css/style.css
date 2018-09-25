@@ -61,6 +61,10 @@ h1 {
     margin: 0;
 }
 
+hr {
+    border-color: #eeeeee;
+}
+
 label {
     padding-top: 20px;
 }
@@ -88,6 +92,7 @@ label {
     width: 940px;
     padding: 10px;
     text-align: left;
+    border-color: #cccccc;
 }
 
 #nameform {
