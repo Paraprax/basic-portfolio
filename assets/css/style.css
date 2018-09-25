@@ -87,6 +87,7 @@ label {
     height: 180px;
     width: 940px;
     padding: 10px;
+    text-align: left;
 }
 
 #nameform {
@@ -142,7 +143,11 @@ p {
 
 #portrait {
     float: left;
-    margin: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-right: 1%;
 }
 
 .repoTitle {
@@ -159,6 +164,7 @@ p {
     color: #4aaaa5;
     font-family: Georgia,'Times New Roman', Times, serif;
     padding-top: 1%;
+    margin-top: 1%; 
     margin-bottom: 1%;
 }
 
