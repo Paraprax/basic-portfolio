@@ -3,6 +3,16 @@ body {
     margin: 0px;
 }
 
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px; 
+    font-size: 10pt;
+}
+
 .content {
     background-color: #ffffff;
     border-style: solid;
@@ -19,13 +29,20 @@ body {
 
 }
 
+#emailform {
+    font-size: 10pt;
+    width: 940px;
+    padding: 10px;
+}
+
 footer {
     background-color: #666666;
     border-top: 5px;
-    border-left: 0;
-    border-bottom: 0;
     border-style: solid;
     border-color: #4aaaa5;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
     color: #dddddd;
     padding-top: 2%; 
     position: fixed;
@@ -44,13 +61,17 @@ h1 {
     margin: 0;
 }
 
+label {
+    padding-top: 20px;
+}
 
 #name {
     background-color: #4aaaa5;
     border-color: #cccccc;
     color: #ffffff;
     float: left;
-    font-size: 38px;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 0%;
     margin-left: 210px;
     padding-top: 20px;
@@ -61,6 +82,18 @@ h1 {
     width: 330px;
 }
 
+#messageform {
+    font-size: 10pt;
+    height: 180px;
+    width: 940px;
+    padding: 10px;
+}
+
+#nameform {
+    font-size: 10pt;
+    width: 940px;
+    padding: 10px;
+}
 
 nav {
     background-color: #ffffff;
@@ -80,16 +113,24 @@ nav {
     nav a {
         float: right;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 17px; 
-        margin-top: 10px;
+        font-size: 18px; 
+        margin-top: 5px;
         padding: 10px;
         text-align: center;
+        text-decoration: none;
         z-index: 1;
     }
 
     nav a:hover {
         background-color:#4aaaa5;
-        color: #ffffff;
+        color: #eeeeee;
+        text-decoration: none;
+    }
+
+    nav a:visited {
+        background-color:#4aaaa5;
+        color: #aaaaaa;
+        text-decoration: none;
     }
   
 
@@ -115,10 +156,10 @@ p {
 }
 
 .subject {
-    font-family: Georgia,'Times New Roman', Times, serif;
     color: #4aaaa5;
+    font-family: Georgia,'Times New Roman', Times, serif;
     padding-top: 1%;
-    padding-left: 2%;
+    margin-bottom: 1%;
 }
 
 ul {
