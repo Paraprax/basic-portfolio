@@ -60,6 +60,8 @@ form {
 .grid {
     display: flex;
     flex-wrap: wrap;
+    padding: 8px;
+    margin: 8px;
 }
 
 h1 {
@@ -160,16 +162,12 @@ p {
     padding-right: 1%;
 }
 
-.repoLink {
-  font-size: 16px; 
-  display: inline-block;
-  margin-bottom: 8px;
-  width: calc(50% - 4px);
-  margin-right: 8px;
+.repoGrid {
+    padding: 8px;
+
 }
 
 .repoThumbnail {
-    display: flex;
     height: 240px;
     width: 300px;
     z-index: -1;
