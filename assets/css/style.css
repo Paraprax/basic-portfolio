@@ -57,6 +57,11 @@ form {
     line-height: 200%;
 }
 
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h1 {
     margin: 0;
 }
@@ -155,15 +160,33 @@ p {
     padding-right: 1%;
 }
 
-.repoTitle {
+.repoLink {
+  font-size: 16px; 
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+}
+
+.repoThumbnail {
+    display: flex;
+    height: 240px;
+    width: 300px;
+    z-index: -1;
+}
+
+ .repoTitle {
     color: #ffffff;
     background-color: #4aaaa5;
-    padding-left: 46px;
-    padding-right: 46px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
     text-align: center;
-}
+    font-size: 18pt;
+    width: 280px;
+    z-index: 1;
+} 
 
 .subject {
     color: #4aaaa5;
@@ -173,8 +196,8 @@ p {
     margin-bottom: 1%;
 }
 
+
 ul {
     list-style-type: none;
-
     margin-right: 210px;
 }
