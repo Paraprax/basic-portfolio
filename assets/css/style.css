@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/gravel/gravel.png");
+    background-image: url("../images/gravel/inverted-gravel.png");
     margin: 0px;
 }
 
@@ -14,9 +14,9 @@ button {
 }
 
 .content {
-    background-color: #ffffff;
+    background-color: #543f6d;
     border-style: solid;
-        border-color: #dddddd;
+        border-color:  rgb(57, 133, 57);
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 210px;
@@ -45,14 +45,14 @@ footer {
     border-right: 0;
     color: #dddddd;
     padding-top: 2%; 
-    position: fixed;
+    position: relative;
         bottom: 0;
         width: 100%;
     text-align: center;
 }
 
 form {
-    color: #777777;
+    color: #dddddd;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 200%;
 }
@@ -73,6 +73,10 @@ hr {
     border-color: #eeeeee;
 }
 
+input {
+    background-color: #111111;
+}
+
 label {
     padding-top: 20px;
 }
@@ -82,8 +86,8 @@ label {
     border-color: #cccccc;
     color: #ffffff;
     float: left;
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-family: 'Mass Effect 123';
     margin-top: 0%;
     margin-left: 210px;
     padding-top: 20px;
@@ -110,9 +114,9 @@ label {
 }
 
 nav {
-    background-color: #ffffff;
+    background-color: #543f6d;
     border-style: solid;
-        border-color: #cccccc;
+        border-color: rgb(57, 133, 57);
         border-top: 0;
         border-right: 0;
         border-bottom: 2;
@@ -143,13 +147,13 @@ nav {
 
     nav a:visited {
         background-color:#4aaaa5;
-        color: #aaaaaa;
+        color: #dddddd;
         text-decoration: none;
     }
   
 
 p {
-    color: #777777;
+    color: #DDDDDD;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 250%;
 }
@@ -193,11 +197,16 @@ p {
 } 
 
 .subject {
-    color: #4aaaa5;
-    font-family: Georgia,'Times New Roman', Times, serif;
+    color: #DDDDDD;
+    font-family: 'Mass Effect 123','Times New Roman', Times, serif;
+    font-size: 15pt;
     padding-top: 1%;
     margin-top: 1%; 
     margin-bottom: 1%;
+}
+
+textarea {
+    background-color: #111111;
 }
 
 
